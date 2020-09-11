@@ -1,0 +1,19 @@
+{
+  "name": "eslintdemo",
+  "version": "1.0.0",
+  "description": "this demo for eslint example for pre commit check",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "eslint src/**"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
